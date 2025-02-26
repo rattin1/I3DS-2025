@@ -2,8 +2,8 @@ import style from "./Switch.module.css"
 
 const Switch = ({troca, isLight}) => {
   return (
-    <div onClick={troca} className={isLight ? style.light : ""}>
-    <div id={style.switch}>
+    <div className={isLight ? style.light : ""} >
+      <div  onClick={troca} id={style.switch} >
       <button></button>
       <span></span>
     </div>
@@ -12,3 +12,4 @@ const Switch = ({troca, isLight}) => {
 };
 
 export default Switch
+
