@@ -1,0 +1,110 @@
+/* From Uiverse.io by Praashoo7 */ 
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+  }
+  
+  .up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+  }
+  
+  .social1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: #C0AF99;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+
+  
+  .social2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: #C0AF99;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+
+  .social3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: #C0AF99;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+
+  
+  .social4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: #C0AF99;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: .2s ease-in-out;
+  }
+  
+
+  
+  .social1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #E1A873;
+  }
+  
+  .social1:hover .instagram {
+    fill: #C0AF99;
+  }
+  
+  .social2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #E1A873;
+  }
+  
+  .social2:hover .twitter {
+    fill: #C0AF99;
+  }
+  
+  .social3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #E1A873;
+  }
+  
+  .social3:hover .github {
+    fill: #C0AF99;
+  }
+  
+  .social4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #E1A873;
+  }
+  
+  .social4:hover .discord {
+    fill: #C0AF99;
+  }

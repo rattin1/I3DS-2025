@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 import "./App.css";
 import Footer from "./components/footer/footer";
 import MovieCard from "./components/movieCard/MovieCard";
+import Logo from "./assets/devflix.png";
+import Lupa from "./assets/search.svg";
 // import Logo from ""
 
 
@@ -34,7 +36,7 @@ e.key === "Enter" && searchMovies(search);
 };
   return (
     <div id="app">
-      <img className="logo" src={"https://placehold.co/200x200"} alt="" />
+      <img className="logo" src={Logo} alt="" />
       
       <div className="search">
 

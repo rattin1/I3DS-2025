@@ -1,0 +1,63 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+/* #divisao {
+  padding-top: 50px;
+  width: 100%;
+  background-color: #6B705C;
+} */
+
+ion-icon {
+width: 30px;
+height: 30px; 
+}
+
+#container {
+  width: 100%;
+  max-width: 588px;
+  margin: 0px auto 0px;
+  padding: 0 24px;
+  padding-top: 15px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.corPrincipal {
+  color: #6B705C;
+}
+
+#socialLinks {
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+  gap: 16px;
+
+  font-size: 24px;
+}
+
