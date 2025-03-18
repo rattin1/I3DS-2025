@@ -7,7 +7,7 @@ const Footer = (props) => {
             <a href={props.devLink}>{props.devName}</a>
         </p>
       </footer>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

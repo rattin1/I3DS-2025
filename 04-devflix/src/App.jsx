@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Footer from "./components/footer/footer";
+import Footer from "./components/footer/Footer";
 import MovieCard from "./components/movieCard/MovieCard";
 import Logo from "./assets/devflix.png";
 import Lupa from "./assets/search.svg";
@@ -13,7 +13,7 @@ const App = () => {
 
   //Utilizando chave de API do arquivo .env
   //const apiKey = import.meta.env.VITE_OMDB_API_KEY;
-  const apiKey = "e4d577fa"
+  const apiKey = "e4d577fa";
   const apiUrl = `https://omdbapi.com/?apikey=${apiKey}`;
 
 
