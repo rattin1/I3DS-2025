@@ -22,7 +22,7 @@ const App = () => {
 
   //Alimentando com dados para não ficar nulo
   useEffect(()=> {
-  searchMovies("Spider Man");
+  searchMovies("Batman");
 }, []);
 
 //criando a conexão com a API e trazendo informações
@@ -55,7 +55,7 @@ e.key === "Enter" && searchMovies(search);
 
         <img 
         onClick={() => searchMovies(search)}
-        src={"https://placehold.co/20x20"} 
+        src={Lupa} 
         alt="" />
       </div>
 
