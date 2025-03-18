@@ -5,12 +5,16 @@
 }
 
 
+#espaço {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 
-/* #divisao {
-  padding-top: 50px;
+
+#divisao {
+  padding-top: 30px;
   width: 100%;
-  background-color: #6B705C;
-} */
+  }
 
 ion-icon {
 width: 30px;
